@@ -1,4 +1,4 @@
-def perfrom_operation(num1, num2, operation):
+def perform_operation(num1, num2, operation):
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
@@ -12,14 +12,4 @@ def perfrom_operation(num1, num2, operation):
     else:
         return "Error: Invalid operation. Please use 'add', 'subtract', 'mulriply', or 'divide'."
     
-    import (perfrom_operation)
-    def main():
-        print("Arithmetic Operations")
-        num1 = float(input("Enter the first number: "))
-        num2 = float(input("Enter the second number: "))
-        operation = input("Enter the operation(add, subtract, multiply, divide): ").strip().lower()
-        result = perfrom_operation(num1, num2, operation)
-        print(f"Result: {result}")
-    if __name__ == "_main_":
-        main()
     
